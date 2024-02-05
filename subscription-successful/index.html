@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../style.css" />
+		<title>Subscription Successful</title>
+
+		<style>
+			.container {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				text-align: center;
+
+				.checkmark {
+					width: 50px;
+					height: 50px;
+				}
+
+				h3 {
+					margin: 20px 0;
+				}
+
+				h2 {
+					margin-bottom: 5px;
+					font-size: 36px;
+				}
+
+				.tip {
+					color: #ccc;
+				}
+
+				.next {
+					display: flex;
+					flex-direction: column;
+					gap: 10px;
+					margin: 20px 0;
+					text-align: center;
+					width: 50%;
+
+					img {
+						width: 40px;
+						height: 40px;
+					}
+				}
+			}
+		</style>
+	</head>
+	<body class="container">
+		<img
+			class="checkmark"
+			src="../assets/verification.png"
+			alt="verification"
+		/>
+		<h3>Hi Hakeem</h3>
+		<h2>Your subscription is now active</h2>
+		<p class="tip">Here's what happens next</p>
+
+		<div class="next">
+			<div>
+				<img src="../assets/login.jpg" alt="login" />
+				<p>Login on the app</p>
+			</div>
+			<div>
+				<img src="../assets/movie.png" alt="login" />
+				<p>Click on cinema and Pick a movie</p>
+			</div>
+			<div>
+				<img src="../assets/pay.jpg" alt="login" />
+				<p>Use pay with subscription to check out</p>
+			</div>
+			<div>
+				<img src="../assets/email.png" alt="login" />
+				<p>You will receive an email notification</p>
+			</div>
+			<div>
+				<img src="../assets/gift.png" alt="login" />
+				<p>Redeem your ticket at the cinema</p>
+			</div>
+		</div>
+	</body>
+</html>
